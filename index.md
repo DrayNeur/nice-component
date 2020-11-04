@@ -17,12 +17,12 @@ First include the CSS stylesheet of nice components in your page <br>
     <tbody>
         <tr>
             <td>Blue 3D</td>
-            <td><img src="https://github.com/DrayNeur/nice-component/blob/main/img/blue3d.PNG?raw=true"></td>
+            <td><img height="55" width="225" src="https://github.com/DrayNeur/nice-component/blob/main/img/blue3d.PNG?raw=true"></td>
             <td>nice btn3d-blue</td>
         </tr>
       <tr>
             <td>Green 3D</td>
-            <td><img src="https://github.com/DrayNeur/nice-component/blob/main/img/green3d.PNG?raw=true"></td>
+            <td><img height="55" width="225" src="https://github.com/DrayNeur/nice-component/blob/main/img/green3d.PNG?raw=true"></td>
             <td>nice btn3d-green</td>
         </tr>
       <tr>
@@ -37,7 +37,7 @@ First include the CSS stylesheet of nice components in your page <br>
         </tr>
       <tr>
             <td>Gray 3D</td>
-            <td><img src="https://github.com/DrayNeur/nice-component/blob/main/img/gray3d.PNG?raw=true"></td>
+            <td><img height="55" width="225" src="https://github.com/DrayNeur/nice-component/blob/main/img/gray3d.PNG?raw=true"></td>
             <td>nice btn3d-gray</td>
         </tr>
       <tr>
