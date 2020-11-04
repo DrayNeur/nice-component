@@ -5,18 +5,21 @@ Creation date: 04/11/2020
 License: MIT
 
 */
-.btn3d-blue {
+.nice-btn {
+  outline: none;
   font-family: sans-serif;
-  color: #f6f6f7;
-  box-shadow: inset 0 -4px 0 rgba(13, 37, 74, .6);
   border: 1px solid #202225;
-  background-color: #1e57b0;
-  padding: 3px 6px 4px;
+  padding: 8px;
   padding-top: 2px;
   border-radius: 1.5px;
   cursor: pointer;
   text-decoration: none;
   text-align: center;
+}
+.btn3d-blue {
+  color: #f6f6f7;
+  box-shadow: inset 0 -4px 0 rgba(13, 37, 74, .6);
+  background-color: #1e57b0;
   transition: 0.2s;
   transition-property: box-shadow,background-color, color, padding;
 }
@@ -35,17 +38,9 @@ License: MIT
   box-shadow: inset 0 0px 0 rgba(13, 37, 74, .6);
 }
 .btn3d-green {
-  font-family: sans-serif;
   color: #f6f6f7;
   box-shadow: inset 0 -4px 0 rgba(6, 56, 11, .6);
-  border: 1px solid #202225;
   background-color: #119e1f;
-  padding: 3px 6px 4px;
-  padding-top: 2px;
-  border-radius: 1.5px;
-  cursor: pointer;
-  text-decoration: none;
-  text-align: center;
   transition: 0.2s;
   transition-property: box-shadow,background-color, color, padding;
 }
@@ -64,17 +59,9 @@ License: MIT
   box-shadow: inset 0 0px 0 rgba(6, 56, 11, .6);
 }
 .btn3d-red {
-  font-family: sans-serif;
   color: #f6f6f7;
   box-shadow: inset 0 -4px 0 rgba(61, 5, 5, .6);
-  border: 1px solid #202225;
   background-color: #b50909;
-  padding: 3px 6px 4px;
-  padding-top: 2px;
-  border-radius: 1.5px;
-  cursor: pointer;
-  text-decoration: none;
-  text-align: center;
   transition: 0.2s;
   transition-property: box-shadow,background-color, color, padding;
 }
@@ -93,17 +80,9 @@ License: MIT
   box-shadow: inset 0 0px 0 rgba(61, 5, 5, .6);
 }
 .btn3d-yellow {
-  font-family: sans-serif;
   color: #f6f6f7;
   box-shadow: inset 0 -4px 0 rgba(79, 77, 4, .6);
-  border: 1px solid #202225;
   background-color: #cfcb04;
-  padding: 3px 6px 4px;
-  padding-top: 2px;
-  border-radius: 1.5px;
-  cursor: pointer;
-  text-decoration: none;
-  text-align: center;
   transition: 0.2s;
   transition-property: box-shadow,background-color, color, padding;
 }
@@ -122,18 +101,10 @@ License: MIT
   box-shadow: inset 0 0px 0 rgba(79, 77, 4, .6);
 }
 .btn3d-gray {
-  font-family: sans-serif;
   color: #f6f6f7;
   -webkit-box-shadow: inset 0 -4px 0 rgba(35, 39, 42, .6);
   box-shadow: inset 0 -4px 0 rgba(35, 39, 42, .6);
-  border: 1px solid #202225;
   background-color: #72767d;
-  padding: 3px 6px 4px;
-  padding-top: 2px;
-  border-radius: 1.5px;
-  cursor: pointer;
-  text-decoration: none;
-  text-align: center;
   transition: 0.2s;
   transition-property: box-shadow,background-color, color, padding;
 }
@@ -152,17 +123,9 @@ License: MIT
   box-shadow: inset 0 0px 0 rgba(35, 39, 42, .6);
 }
 .btn3d-purple {
-  font-family: sans-serif;
   color: #f6f6f7;
   box-shadow: inset 0 -4px 0 rgba(84, 8, 77, .6);
-  border: 1px solid #202225;
   background-color: #ad109e;
-  padding: 3px 6px 4px;
-  padding-top: 2px;
-  border-radius: 1.5px;
-  cursor: pointer;
-  text-decoration: none;
-  text-align: center;
   transition: 0.2s;
   transition-property: box-shadow,background-color, color, padding;
 }
@@ -180,6 +143,28 @@ License: MIT
   padding-top: 0px;
   box-shadow: inset 0 0px 0 rgba(84, 8, 77, .6);
 }
+form .white-form-control {
+  margin-top: 5px;
+  display: block;
+}
+form .nice-btn {
+  margin-top: 5px;
+}
+.white-form-control {
+  background-color: #fafafa;
+  color: #000000;
+  border: none;
+  padding: 8px;
+}
+.white-form-control[type=submit] {
+  display: none;
+}
+.white-form-control:focus {
+  background-color: #fafafa;
+  color: #000000;
+  outline: 1px solid #ccc;
+}
+
 .big {
   font-size: 2vw;
 }
