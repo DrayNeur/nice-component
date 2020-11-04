@@ -7,8 +7,9 @@ First include the CSS stylesheet of nice components in your page <br>
 ```html
 <link rel="stylesheet" href="nice-components.css">
 ```
+<br>
 
-
+#### 3D Buttons
 | Buttons        | Class                | Preview             |
 | -------------- | -------------------- |:-------------------:|
 | **Blue 3D**    | `nice btn3d-blue`    | ![](https://github.com/DrayNeur/nice-component/blob/main/img/blue3d.PNG?raw=true) |
