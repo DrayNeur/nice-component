@@ -27,7 +27,7 @@ First include the CSS stylesheet of nice components in your page <br>
         </tr>
       <tr>
             <td>Red 3D</td>
-            <td><img height="55" width="225" src="https://github.com/DrayNeur/nice-component/blob/main/img/red3d.PNG?raw=true"></td>
+            <td><img height="55" width="225" src="https://github.com/DrayNeur/nice-component/blob/main/img/red3d.png?raw=true"></td>
             <td>nice btn3d-red</td>
         </tr>
       <tr>
