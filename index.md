@@ -47,3 +47,21 @@ First include the CSS stylesheet of nice components in your page <br>
         </tr>
     </tbody>
 </table>
+
+#### Form controls /!\ In dev
+<table>
+    <thead>
+        <tr>
+            <th colspan="1">Name</th>
+            <th colspan="1">Preview</th>
+            <th colspan="1">Class</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>White control</td>
+            <td><img height="55" width="225" src="https://github.com/DrayNeur/nice-component/blob/main/img/formControlWhite.PNG?raw=true"></td>
+            <td>white-form-control</td>
+        </tr>
+    </tbody>
+</table>
